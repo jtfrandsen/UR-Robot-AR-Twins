@@ -2,11 +2,12 @@
 
 **Purpose:** To share ideas about using augmented reality to facilitate the integration of industrial robots.
 
-**Summary:** A a novel approach to integrating industrial robots in a production facility, using augmented reality digital twins. The AR digital twins depicted herein are intended to simplify the process of spatially planning a workstation, display real-time performance metrics for a robot in operation, as well as provide an intuitive user interface for creating basic robotic programs. This digital twin package is enabled by PTC's smart manufacturing software suite and was created specifically for Universal Robots' collaborative robot family.
+**Summary:** A novel approach to integrating industrial robots in a production facility, using augmented reality digital twins. The AR digital twins depicted herein are intended to simplify the process of spatially planning a workstation, display real-time performance metrics for a robot in operation, as well as provide an intuitive user interface for creating basic robotic programs. This digital twin package is enabled by PTC's smart manufacturing software suite and was created specifically for Universal Robots' collaborative robot family.
 
 ### **Table of Contents**
 
 - [Project Background](#project-background)
+- [Current Robot Integration Methods](#current-robot-integration-methods)
 - [UR Robot Digital Twin Package](#ur-robot-digital-twin-package)
    - [Digital Twin for Visualizing](#digital-twin-for-visualizing)
    - [Digital Twin for Programming](#digital-twin-for-programming)
@@ -29,4 +30,12 @@ Digital twins are defined as “a digital representation of an active, unique pr
 
 This repository presents a comprehensive digital twin package, based in augmented-reality (AR), that will facilitate SMEs in incorporating industrial robots into their production areas. The digital twins described hereafter can be used in existing factories with no extra costs and require little-to-no prior skill in robot programming. They will help SMEs confidently determine their needs with the robots before making the expensive purchase, as well as assist employees with creating robotic movement paths and monitoring real-time robot performance.
 
-## UR Robot Digital Twin Package
+## Current Robot Integration Methods
+
+This section outlines 
+
+- [Determining Robot Placement within the Workstation](#determining-robot-placement-within-the-workstation)
+- [Creating a Path for the Robot to Follow](#creating-a-path-for-the-robot-to-follow)
+
+### Determining Robot Placement within the Workstation
+
