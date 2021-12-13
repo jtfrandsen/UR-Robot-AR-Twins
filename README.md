@@ -45,9 +45,29 @@ The following digital twin classes are included in this package: (1) a dimension
 
 ### Digital Twin for Visualizing
 
-This digital twin allows the user to place a virtual robot into a physical space using augmented reality and serves to facilitate workstation planning. It includes a library of various robots and end effectors which render an accurate representation of the physical robot. ThingMarks are used for tracking becuase they provide a reference point to which the AR model is tethered. They also act as a size reference to ensure the AR models remain dimensionally precise, no matter where they are located. There are six sliders displayed on the user’s device, each of them corresponding to one of the AR robot’s six joints. These sliders give the user control over the AR cobot with 6 degrees of freedom and allow the user to move the AR robot into any pose. Additionally, a 3D rendering of the robot's entire working envelope has been included to give users a macro-level view of the robot's reach. Overall, this AR experience allows the user to easily visualize how a robot will fit into a workspace without having to purchase it first. It acts as a "try before you buy" experience for industrial robots.
+This digital twin allows the user to place a virtual robot into a physical space using augmented reality and serves to facilitate workstation planning. It includes a library of various robots and end effectors which render an accurate representation of the physical robot. ThingMarks are used for tracking becuase they provide a reference point to which the AR model is tethered. They also act as a size reference to ensure the AR models remain dimensionally precise, no matter where they are located. There are six sliders displayed on the user’s device, each of them corresponding to one of the AR robot’s six joints. These sliders give the user control over the AR cobot with 6 degrees of freedom and allow the user to move the AR robot into any pose. Additionally, a 3D rendering of the robot's entire working envelope has been included to give users a macro-level view of the robot's reach. Overall, this AR experience allows the user to easily visualize how a robot will fit into a workspace without having to purchase it first. It acts as a "try before you buy" experience for industrial robots. A video demonstration of this AR experience can be viewed below:
 
-The "Digital Twin for Visualizing" experience can be downloaded here.
+*See how easy it is switch between robots/end effectors to determine which combination is best-suited for your situation.*
+
+[![Digital Twin for Visualizing](https://img.youtube.com/vi/2QoIZAFFUgA/0.jpg)](https://youtu.be/2QoIZAFFUgA)
+
+Additionally, some screnshots from the "Digital Twin for Visualizing" AR expeeience have been included below:
+
+
+*The Digital Twin for Visualizing is being used to determine which robot is best-suited to unload printed parts from a 3D printer.*
+
+<img width="450" alt="Digital Twin for Visualizing being used to determine which robot is best-suited to unload printed parts from a 3D printer." src="https://user-images.githubusercontent.com/86619231/145610145-7329e629-072f-455b-9c1b-6f521f26f162.png">
+
+The "Digital Twin for Visualizing" experience can be downloaded [here](https://byu.box.com/s/z1esz9no0gc8v1n1yvs7s7b516sxyov2).
 
 ### Digital Twin for Monitoring
 
+This digital twin is data-rich and allows the user to effortlessly monitor a robot’s current operating conditions. It is enabled by real-time data flow coming from a physical robot and displays the rotation, temperature, and current of each of the six joints. This AR experience provides a simple data display that allows operators to quickly check that an industrial robot is operating within specifications.
+
+### Digital Twin for Programming
+
+This digital twin is fully-connected and allows the user to control the physical robot using a smart device. There are six on-screen sliders that allow the user to create a program with up to four waypoints. The digital twin is considered “closed-loop” because the defined program is sent back to move the physical robot. This AR experience allows those who lack expertise in manipulating industrial robots to generate simple programs through a user-friendly GUI.
+
+## MSEC/NAMRC 2021 Conference Presentation
+
+## PTC DX in Education Summit
